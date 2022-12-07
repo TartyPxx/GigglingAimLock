@@ -1,0 +1,14 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Giggling AimLock",  "BloodTheme")
+
+--Main
+local Main = Window:NewTab("Giggling AimLock")
+local MainV2Section = Main:NewSection("AimLock")
+
+MainV2Section:NewButton("AimLock", "Da Hood Aimlock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TartyPxx/GigglingAimLock/main/DHAimlock"))
+end)
+
+MainV2Section:NewButton("AimLock Again", "HoodModded Aimlock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TartyPxx/GigglingAimLock/main/AimLockAgain"))
+end)
